@@ -29,6 +29,7 @@ class PDFUncertainty
   std::vector<LHAPDF::PDF*> pdf1;
   std::vector<LHAPDF::PDF*> pdf2;
   std::vector<LHAPDF::PDF*> pdf3;
+  std::vector<LHAPDF::PDF*> pdf4;
 };
 
 #endif // PDFUNCERTAINTY_H
