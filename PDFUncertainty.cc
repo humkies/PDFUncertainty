@@ -31,6 +31,11 @@ PDFUncertainty::PDFUncertainty()
             pdf3.push_back(LHAPDF::mkPDF("NNPDF30_nlo_as_0118", in));
 
         }
+	for(int in = 0; in < 101; in++){
+
+          pdf4.push_back(LHAPDF::mkPDF("PDF4LHC15_mc_nlo", in));
+
+        }
 }
 
 
